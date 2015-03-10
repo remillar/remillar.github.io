@@ -25,6 +25,7 @@ footer {
 }
 
 div {
+	float:right;
 	height: 320px;
 	width: 400px;
 	background-color:white;
@@ -32,7 +33,6 @@ div {
 }
 
 ol {
-	float:right;
 	padding:20px;
 	padding-left:50px;
 	height:75%;
