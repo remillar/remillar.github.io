@@ -2,23 +2,19 @@
   body {
   	background-color: teal;
   	font-family: Athelas;
-  	font-size: 14px;
+  	font-size: 16px;
   	color: white;
-  	padding:30px;
-  	padding-top:30px
-  	padding-left:50px;
-  	padding-bottom:60px;
-  	padding-right:150px;
+  	padding:40px;
   }
 
   h1 {
   	font-family:Modern Sans;
-  	font-size:24px;
+  	font-size:28px;
   }
 
   h2 {
   	font-family:Modern Sans;
-  	font-size:18px;
+  	font-size:22px;
   }
 
 footer {
@@ -26,4 +22,16 @@ footer {
 	font-style:italic;
 	font-color:white;
 	padding:40px;
+}
+
+div {
+	height: 300px;
+	width: 400px;
+	background-color:blue;
+}
+
+ol {
+	height:75%;
+	width:75%;
+	background-color: white;
 }
