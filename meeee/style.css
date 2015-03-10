@@ -47,11 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-img {
-	height:100px
-	width:200px;
-}
-
 /* Add Styles Here */
 body { font-family:Times; font-size:14px; }
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
