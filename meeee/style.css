@@ -48,10 +48,12 @@ table {
 }
 
 /* Add Styles Here */
+
 body { 
 	font-family:Helvetica; 
 	font-size:16px; 
 	text-align:center; 
+	background-color:#CCFFFF;
 }
 section#content { 
 	margin:0 auto; 
@@ -59,13 +61,15 @@ section#content {
 	padding:20px 0px; 
 }
 
-h1 { font-size:48px; 
+h1 { 
+	font-size:48px; 
 	font-weight:bold; 
 	color:black; 
 	text-align:center; 
 }
 
-h2 { font-size:36px; 
+h2 { 
+	font-size:36px; 
 	font-weight:bold; 
 	color:black; 
 	text-align:center; 
