@@ -38,6 +38,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	font-family:Helvetica;
 }
 blockquote, q {
 	quotes: none;
