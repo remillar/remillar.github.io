@@ -1,5 +1,5 @@
 
-  body {
+body {
   	background-color: teal;
   	font-family: Athelas;
   	font-size: 16px;
@@ -7,12 +7,12 @@
   	padding:40px;
   }
 
-  h1 {
+h1 {
   	font-family:Modern Sans;
   	font-size:28px;
   }
 
-  h2 {
+h2 {
   	font-family:Modern Sans;
   	font-size:22px;
   }
