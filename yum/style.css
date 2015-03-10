@@ -2,12 +2,17 @@
   body {
   	background-color: teal;
   	font-family: Athelas;
-  	font-size: 14px;
+  	font-size: 12px;
   	color: white;
   }
 
   h1 {
-  	font-family:Bebas;
+  	font-family:Modern Sans;
   	font-size:18px;
+  }
+
+  h2 {
+  	font-family:Modern Sans;
+  	font-size:16px;
   }
 
