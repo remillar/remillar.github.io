@@ -25,13 +25,13 @@ footer {
 }
 
 div {
-	height: 300px;
+	height: 320px;
 	width: 400px;
 	background-color:white;
 	color:black;
 }
 
-ol,ul {
+ol {
 	padding:20px;
 	padding-left:50px;
 	height:75%;
