@@ -32,7 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1
+	font-family:Helvetica;
+	  color:black;
 }
 ol, ul {
 	list-style: none;
@@ -52,10 +54,4 @@ table {
 
 
 /* END RESET */
-
-body {
-	  font-family:Helvetica;
-	  color:black;
-
-}
 
