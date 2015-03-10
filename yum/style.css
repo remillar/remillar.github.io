@@ -16,6 +16,12 @@ h2 {
   	font-family:Modern Sans;
   	font-size:22px;
   }
+h3 {
+  	font-family:Modern Sans;
+  	font-size:22px;
+  	float:right;
+  }
+
 
 footer {
 	text-decoration:none;
@@ -26,9 +32,9 @@ footer {
 
 ol {
 	width:600px;
+	float:right;
 }
 
 ul {
 	width:600px;
-	float:right;
 }
