@@ -31,9 +31,9 @@ div {
 	color:black;
 }
 
-ol {
+ol,ul {
 	padding:20px;
-	padding-left:60px;
+	padding-left:50px;
 	height:75%;
 	width:75%;
 }
