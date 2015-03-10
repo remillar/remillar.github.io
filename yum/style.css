@@ -27,11 +27,11 @@ footer {
 div {
 	height: 300px;
 	width: 400px;
-	background-color:blue;
+	background-color:white;
+	color:black;
 }
 
 ol {
 	height:75%;
 	width:75%;
-	background-color: white;
 }
