@@ -59,6 +59,9 @@ body {
     font-size:14px;
     color:black;
 }
+header {
+    text-align:center;
+}
 
 h1 {
     font-size:50px;
@@ -100,13 +103,11 @@ article {
     padding-left:20px;
     float:left;
     width:500px;
-
 }
 
 footer {
     font-size:14px;
     font-variant:italic;
-    
 }
 
 
