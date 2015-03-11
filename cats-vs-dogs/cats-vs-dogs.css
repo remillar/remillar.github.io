@@ -58,7 +58,9 @@ body {
     font-family:Georgia;
     font-size:14px;
     color:black;
+    text-align:center;
 }
+
 header {
     text-align:center;
 }
@@ -93,16 +95,16 @@ li {
     padding:7px 14px;
     color:black;
 }
+
 section {
     width:1200px;
     height:600px;
-
 }
 
 article {
     padding-left:20px;
     float:left;
-    width:500px;
+    width:400px;
 }
 
 footer {
