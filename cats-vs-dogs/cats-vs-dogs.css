@@ -110,12 +110,19 @@ article {
     width:400px;
 }
 
+
 footer {
     font-size:14px;
     font-variant:italic;
 }
 
+footer.source {
+    text-align:left;
+}
 
+footer.martha {
+    text-align:right;
+}
 
 
 
