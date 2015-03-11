@@ -37,21 +37,8 @@ li {
     border-color:black;
 }
 
-article {
-	width:600px;
-	page-break-after:40px;
+p {
     float:left;
-    margin:10px;
-    background-color:white;
-    padding:7px 14px;
-    color:black;
-    font-family:Georgia;
-    font-size:14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-top-width:5px;
-    border-bottom-width:5px;
-    border-color:black;
 }
 
 footer {
