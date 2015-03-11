@@ -80,7 +80,8 @@ nav {
 
 ul {
     width:1000px;
-    padding:4px;
+    padding:10px;
+    padding:6px 18px 5px 18px;
     border-top:2px solid #000;
     border-bottom:2px solid #000;
     text-align:center;
@@ -89,9 +90,9 @@ ul {
 li {
     float:left;
     margin:0px 3px;
-    padding:6px 18px 5px 18px;
     color:black;
     font-size:18pt;
+    text-transform:uppercase;
 }
 
 section {
