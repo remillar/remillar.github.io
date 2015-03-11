@@ -18,7 +18,11 @@ section {
 	height:800px;
 
 }
-
+article {
+    padding:20px;
+    float:left;
+    width:600px;
+}
 li {
 	page-break-after:40px;
 	text-align:center;
@@ -35,11 +39,6 @@ li {
     border-top-width:5px;
     border-bottom-width:5px;
     border-color:black;
-}
-
-p {
-    float:left;
-    width:600px;
 }
 
 footer {
