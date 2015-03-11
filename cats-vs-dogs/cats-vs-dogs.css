@@ -35,6 +35,10 @@ li {
     border-color:black;
 }
 
+article {
+	float:left;
+}
+
 ul {
 	text-align:center;
 }
