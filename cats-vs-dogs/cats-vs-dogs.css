@@ -64,19 +64,12 @@ header {
     text-align:center;
 }
 
-h1 {
+h2 {
     font-size:50px;
     font-family:Helvetica;
     padding-bottom:10px;
     padding-top:10px;
     
-}
-
-h2 {
-    font-size:20px;
-    font-variant:bold;
-    padding-bottom:10px;
-    padding-top:10px;
 }
 
 ul {
