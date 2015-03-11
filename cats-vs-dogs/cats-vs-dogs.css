@@ -98,13 +98,12 @@ li {
 section {
     width:1200px;
     height:600px;
-    text-align:center;
 }
 
 article {
     padding-left:20px;
     float:left;
-    width:400px;
+    width:500px;
 }
 
 footer {
