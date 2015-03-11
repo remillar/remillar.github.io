@@ -72,11 +72,13 @@ h2 {
 }
 
 section {
-	float:left;
+	width:1000px;
+	height:600px;
+
 }
 
 article {
 	padding:20px;
-	width:300px;
+	float:left;
 
 }
