@@ -72,6 +72,10 @@ h2 {
     font-weight:bold;
 }
 
+nav {
+    padding-bottom:30px;
+}
+
 ul {
     width:570px;
     padding:15px;
