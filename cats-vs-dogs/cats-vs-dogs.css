@@ -31,9 +31,13 @@ li {
     text-transform:uppercase;
     font-family:Georgia;
     font-size:20px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 ul {
+	text-align:center;
+}
+
+nav {
 	text-align:center;
 }
