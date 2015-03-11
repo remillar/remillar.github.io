@@ -2,7 +2,7 @@
 body {
 	font-family:Georgia;
 	font-size:14px;	
-	padding:20spx;
+	padding:40px;
 	page-break-after:40px;
 }
 
@@ -13,7 +13,7 @@ header {
 
 section {
 	width:600px;
-	float:right;
+	float:left;
 }
 
 article {
@@ -30,6 +30,7 @@ li {
     color:black;
     text-transform:uppercase;
     font-family:Georgia;
+    font-size:20px;
 }
 
 ul {
