@@ -7,6 +7,16 @@ body {
   	padding:40px;
   }
 
+section {
+  width:1000px;
+  height:800px;
+}
+
+article {
+  width:400px;
+  height:900px;
+}
+
 h1 {
   	font-family:Modern Sans;
   	font-size:32px;
@@ -35,8 +45,4 @@ ol {
 
 ul {
 	width:400px;
-}
-
-div {
-	float:right;
 }
