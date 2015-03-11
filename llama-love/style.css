@@ -52,4 +52,18 @@ table {
 
 /* -----------------END RESET---------------- */
 
+body {
+	padding:40px;
+	font-family:Georgia;
+	font-size:12px;
+}
 
+h1 {
+	font-size:20px;
+	font-style:bold;
+}
+
+h2 {
+	font-size:14px;
+	font-style:italic;
+}
