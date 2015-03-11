@@ -63,14 +63,14 @@ body {
 h1 {
     font-size:50px;
     font-family:Helvetica;
-    padding:10px;
+    padding-bottom:10px;
     
 }
 
 h2 {
     font-size:20px;
     font-style:bold;
-    padding:10px;
+    padding-bottom:10px;
 }
 
 section {
@@ -80,7 +80,7 @@ section {
 }
 
 article {
-    padding:20px;
+    padding-left:20px;
     float:left;
     width:500px;
 
