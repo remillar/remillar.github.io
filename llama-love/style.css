@@ -61,16 +61,18 @@ body {
 h1 {
 	font-size:20px;
 	font-style:bold;
+	padding:10px;
 	
 }
 
 h2 {
 	font-size:14px;
 	font-style:italic;
-
+	padding:10px;
 }
 
 article {
 	padding:20px;
+	width:300px;
 
 }
