@@ -4,6 +4,7 @@ body {
 	font-size:14px;	
 	padding:40px;
 	page-break-after:40px;
+	width:750px;
 }
 
 header {
@@ -13,12 +14,7 @@ header {
 
 p {
 	width:600px;
-	height:400px;
 	float:left;
-}
-
-article {
-	width:600px;
 }
 
 li {
