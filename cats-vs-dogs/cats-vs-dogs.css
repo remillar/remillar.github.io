@@ -13,7 +13,7 @@ header {
 
 
 p {
-	width:600px;
+	width:230px;
 	float:left;
 }
 
@@ -41,4 +41,8 @@ ul {
 
 nav {
 	text-align:center;
+}
+
+footer {
+	font-size:12px;
 }
