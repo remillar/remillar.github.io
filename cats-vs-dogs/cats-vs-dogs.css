@@ -2,5 +2,9 @@
 body {
 	font-family:Georgia;
 	font-size:14px;	
+	padding:40px;
 }
 
+section {
+	width:400px;
+}
