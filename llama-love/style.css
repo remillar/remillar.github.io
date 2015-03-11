@@ -71,6 +71,10 @@ h2 {
 	padding:10px;
 }
 
+section {
+	float:left;
+}
+
 article {
 	padding:20px;
 	width:300px;
