@@ -90,4 +90,6 @@ article {
 footer {
 	font-size:12px;
 	font-variant:italic;
+	background-color:#FF0000;
+	color:#FFFF66;
 }
