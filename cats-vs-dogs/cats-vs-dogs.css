@@ -12,16 +12,17 @@ header {
 	text-align:center;
 }
 
-
 section {
-	width:1200px;
-	height:600px;
+    width:1000px;
+    height:600px;
 
 }
+
 article {
     padding:20px;
     float:left;
-    width:600px;
+    width:400px;
+
 }
 li {
 	page-break-after:40px;
