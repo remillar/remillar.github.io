@@ -14,8 +14,8 @@ header {
 
 
 section {
-	width:600px;
-	height:700px;
+	width:1000px;
+	height:600px;
 
 }
 article {
@@ -43,6 +43,7 @@ li {
 
 footer {
 	font-size:12px;
+    font-variant:italic;
 }
 
 
