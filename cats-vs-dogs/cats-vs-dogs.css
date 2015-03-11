@@ -33,6 +33,9 @@ li {
     font-size:20px;
     padding-left: 20px;
     padding-right: 20px;
+    border-top-width:5px;
+    border-bottom-width:5px;
+    border-color:black;
 }
 
 ul {
