@@ -3,6 +3,7 @@ body {
 	font-family:Georgia;
 	font-size:14px;	
 	padding:40px;
+	page-break-after:40px;
 }
 
 header {
@@ -12,14 +13,15 @@ header {
 
 section {
 	width:600px;
+	float:right;
 }
 
 ul {
     float:left;
     margin:10px;
-    background-color:teal;
+    background-color:white;
     padding:7px 14px;
     color:white;
     text-transform:uppercase;
-    font-family:Helvetica;
+    font-family:Georgia;
 }
