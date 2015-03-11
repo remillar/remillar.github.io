@@ -5,12 +5,16 @@ body {
 	padding:40px;
 }
 
+header {
+	text-align:center;
+}
+
+
 section {
 	width:600px;
 }
 
 ul {
-	list-style:none;
     float:left;
     margin:10px;
     background-color:teal;
