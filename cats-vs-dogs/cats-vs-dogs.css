@@ -88,8 +88,8 @@ ul {
 
 li {
     float:left;
-    margin:10px;
-    padding:7px 14px;
+    margin:0px 3px;
+    padding:6px 18px 5px 18px;
     color:black;
     font-size:18pt;
 }
