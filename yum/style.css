@@ -15,6 +15,7 @@ section {
 article {
   width:400px;
   height:900px;
+  float:left;
 }
 
 h1 {
