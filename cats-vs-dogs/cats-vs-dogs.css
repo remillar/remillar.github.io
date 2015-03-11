@@ -75,8 +75,8 @@ h2 {
 
 nav {
     padding-bottom:30px;
-    margin-top:2px black;
-    margin-bottom:2px black;
+    border-top:2px black;
+    border-bottom:2px black;
 }
 
 ul {
