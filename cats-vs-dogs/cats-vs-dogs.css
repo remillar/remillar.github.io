@@ -17,6 +17,7 @@ section {
 }
 
 ul {
+	text-align:center;
     float:left;
     margin:10px;
     background-color:white;
