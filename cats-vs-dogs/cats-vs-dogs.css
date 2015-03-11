@@ -32,7 +32,6 @@ ul {
 }
 
 li {
-	page-break-after:40px;
 	text-align:center;
     float:left;
     margin:10px;
@@ -42,15 +41,13 @@ li {
     text-transform:uppercase;
     font-family:Georgia;
     font-size:20px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
 footer {
 	font-size:12px;
     font-variant:italic;
-    background-color:black;
-    color:white;
 }
 
 
