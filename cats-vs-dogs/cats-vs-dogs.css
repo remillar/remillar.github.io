@@ -97,6 +97,7 @@ li {
 }
 
 section {
+    padding-top:40px;
     padding-left:50px;
     width:1000px;
     height:600px;
