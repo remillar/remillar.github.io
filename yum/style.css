@@ -9,14 +9,16 @@ body {
 
 section {
   width:1000px;
-  height:800px;
+  height:500px;
 }
 
 article {
   width:400px;
   height:700px;
   float:left;
-  padding:20px;
+  padding-left:40px;
+  padding-top:20px;
+  padding-right:30px;
 }
 
 h1 {
@@ -38,7 +40,7 @@ footer {
 	text-decoration:none;
 	font-style:italic;
 	font-color:white;
-	padding:40px;
+	padding-left:40px;
 }
 
 ol {
