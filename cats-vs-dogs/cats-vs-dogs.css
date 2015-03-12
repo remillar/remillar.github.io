@@ -81,19 +81,19 @@ nav {
 ul {
     width:1000px;
     padding:10px;
-    padding:6px 18px 5px 18px;
-    border-top:2px solid #000;
-    border-bottom:2px solid #000;
+    padding:
     text-align:center;
 }
 
 li {
     float:left;
-    margin:3px 3px;
     color:black;
     font-size:18pt;
     text-transform:uppercase;
-    padding:7px 14px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-right:10px;
+    padding-bottom:5px;
 }
 
 section {
