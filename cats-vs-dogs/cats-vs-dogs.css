@@ -83,6 +83,8 @@ ul {
     padding:10px;
     padding:
     text-align:center;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
 }
 
 li {
@@ -91,7 +93,7 @@ li {
     font-size:18pt;
     text-transform:uppercase;
     padding-left:50px;
-    padding-top:5px;
+    padding-top:20px;
     padding-right:50px;
     padding-bottom:5px;
 }
