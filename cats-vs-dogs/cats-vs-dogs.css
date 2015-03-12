@@ -112,18 +112,22 @@ article {
 
 
 footer {
-    padding-top:20px;
     font-size:14px;
     font-variant:italic;
 }
 
 footer.source {
+    padding-top:20px;
     text-align:left;
 }
 
 footer.martha {
+    padding-top:20px;
     text-align:right;
 }
 
+a.href {
+    padding-top:20px;
+}
 
 
