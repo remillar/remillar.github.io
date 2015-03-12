@@ -43,6 +43,14 @@ footer {
 	padding-left:40px;
 }
 
+footer.hw {
+  text-align:left
+}
+
+footer.link {
+  text-align:right;
+}
+
 ol {
 	width:400px;
 }
