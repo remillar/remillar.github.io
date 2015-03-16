@@ -63,9 +63,7 @@ body {
 h1 {
 	font-size:30px;
 	font-family:Helvetica;
-	padding-bottom:10px;
-	padding-top:20px;
-	
+	padding-bottom:10px;	
 }
 
 h2 {
@@ -82,8 +80,8 @@ section {
 
 article {
 	padding-left:40px;
-	width:500px;
-
+	float:left;
+	width:50%;
 }
 
 img {
