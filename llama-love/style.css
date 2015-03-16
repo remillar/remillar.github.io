@@ -58,16 +58,17 @@ body {
 	font-family:Georgia;
 	font-size:16px;
 	color:black;
+	line-height:1.5;
 }
 
 h1 {
 	font-size:30px;
 	font-family:Helvetica;
-	padding-bottom:10px;	
+	padding-bottom:10px;
 }
 
 h2 {
-	font-size:20px;
+	font-size:18px;
 	font-style:italic;
 	padding-bottom:10px;
 }
@@ -81,11 +82,13 @@ section {
 article {
 	padding-left:40px;
 	float:left;
-	width:50%;
+	width:40%;
 }
 
 img {
 	float:left;
+	padding-right:20px;
+	padding-bottom:18px;
 }
 
 footer {
@@ -93,4 +96,8 @@ footer {
 	font-variant:italic;
 	color:black;
 	padding:20px;
+	position:absolute;
+	bottom:20px;
+	left:60px;
 }
+
