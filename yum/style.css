@@ -5,6 +5,7 @@ body {
   	font-size: 16px;
   	color: black;
   	padding:40px;
+    width:900px;
   }
 
 section {
@@ -13,12 +14,9 @@ section {
 }
 
 article {
-  width:400px;
-  height:500px;
+  width:50%;
   float:left;
-  padding-left:40px;
-  padding-top:20px;
-  padding-right:30px;
+  margin:2.5%;
 }
 
 h1 {
