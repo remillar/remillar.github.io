@@ -53,12 +53,15 @@ table {
 /* -----------------END RESET---------------- */
 
 body {
+    width:1000px;
+    height:1000px;
     padding:40px;
     padding-left:60px;
+    margin: 0 auto;
     font-family:Georgia;
     font-size:16px;
     color:black;
-    width:1000px;
+    line-height:1.2;
 }
 
 header {
@@ -79,38 +82,30 @@ nav {
 }
 
 ul {
-    width:1000px;
-    padding:10px;
-    padding:
-    text-align:center;
-    border-top:2px solid black;
-    border-bottom:2px solid black;
+    margin:0 auto;
 }
 
 li {
     float:left;
-    color:black;
-    font-size:18pt;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:15px;
+    padding-top:15px;
+    font-size:18px;
     text-transform:uppercase;
-    padding-left:50px;
-    padding-top:20px;
-    padding-right:50px;
-    padding-bottom:5px;
 }
 
 section {
     padding-top:40px;
     padding-left:50px;
-    width:1000px;
-    height:600px;
-    border-bottom:2px solid #000;
-    border-color:black;
+    height:700px;
 }
 
 article {
     padding-left:20px;
     float:left;
-    width:400px;
+    width:40%;
+    margin:10px;
 }
 
 
@@ -120,17 +115,24 @@ footer {
 }
 
 footer.source {
-    padding-top:20px;
-    text-align:left;
+    position:absolute;
+    left:20px;
+    bottom:20px;
+
 }
 
 footer.martha {
+    position:absolute;
+    right:20px;
+    bottom:20px;
     padding-top:20px;
-    text-align:right;
 }
 
-a.href {
+a {
     padding-top:20px;
+    text-decoration:none;
+    position:absolute;
+    bottom:10px;
 }
 
 
