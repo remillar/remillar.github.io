@@ -1,37 +1,32 @@
 
 body {
   	background-color: white;
-  	font-family: Helvetica;
+  	font-family: Helvetica Neue;
   	font-size: 16px;
   	color: black;
-  	padding:40px;
-    width:900px;
+  	padding-left:40px;
+    padding-top:20px;
+    width:750px;
   }
 
-section {
-  width:1000px;
-  height:520px;
-}
-
-article {
-  width:50%;
-  float:left;
-  margin:2.5%;
-}
-
 h1 {
-  	font-family:Modern Sans;
+  	font-family:Avenir Next;
   	font-size:32px;
+    font-weight:regular;
   }
 
 h2 {
-  	font-family:Modern Sans;
+  	font-family:Avenir Next;
   	font-size:22px;
   }
 h3 {
-  	font-family:Modern Sans;
+  	font-family:Avenir Next;
   	font-size:22px;
   }
+
+h4 {
+    font:Avenir Next;
+}
 
 
 footer {
@@ -42,17 +37,20 @@ footer {
 }
 
 footer.hw {
-  text-align:left
+  padding-top:30px;
+  left:40px;
 }
 
 footer.link {
-  text-align:right;
+  right:40px;
+  padding-top:20px;
 }
 
-ol {
-	width:400px;
+a {
+  color:red;
+
 }
 
 ul {
-	width:400px;
+  list-style:none;
 }
