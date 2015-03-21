@@ -55,22 +55,24 @@ table {
 body {
 	padding:40px;
 	padding-left:60px;
-	font-family:Georgia;
-	font-size:16px;
+	font-family:Helvetica;
+	font-size:14px;
 	color:black;
-	line-height:1.5;
+	line-height:1.3;
 }
 
 h1 {
-	font-size:30px;
+	font-size:24px;
 	font-family:Helvetica;
 	padding-bottom:10px;
+	font-weight:bold;
 }
 
 h2 {
-	font-size:18px;
+	font-size:12px;
 	font-style:italic;
 	padding-bottom:10px;
+	color:gray;
 }
 
 section {
@@ -98,6 +100,6 @@ footer {
 	padding:20px;
 	position:absolute;
 	bottom:20px;
-	left:60px;
+	left:80px;
 }
 
