@@ -57,27 +57,21 @@ header {
 	right:20px;
 }
 
-a.top-nav {
-	color:white;
-}
-
 ol, ul {
 	list-style: none;
 	text-transform:uppercase;
 	font-weight:bold;
 }
 
-a.main-menu {
-	color:white;
-	text-decoration:none;
-}
-
 nav>a {
-	color:white;
+	color:#663300;
+	font-size:14px;
+	text-decoration:none;
 }
 
 article {
 	width:450px;
+	padding-bottom:20px;
 }
 
 h1 {
@@ -123,6 +117,8 @@ table {
 	background-color:#663300;
 	color:white;
 	position:absolute;
+	padding-left:240px;
+	padding-right:340px;
 }
 
 #sidebar {
@@ -130,3 +126,4 @@ table {
 	right:20px;
 	top:295px;
 }
+
