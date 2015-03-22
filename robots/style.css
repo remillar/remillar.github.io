@@ -31,20 +31,86 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	font-family:Helvetica;
+	color:#663300;
 }
+
+header {
+	padding-bottom:20px;
+	background-color:#FDE8D7;
+	padding-left:240px;
+}
+
+#menu-wrapper {
+	padding-left:240px;
+	padding-top:10px;
+	padding-bottom:20px;
+	background-color:#663300;
+}
+
+#top-nav {
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+
 ol, ul {
 	list-style: none;
+	text-transform:uppercase;
+	font-weight:bold;
 }
+
+a.menu-wrapper {
+	color:white;
+	text-decoration:none;
+}
+
+li.main-menu {
+	float:left;
+	padding-right:20px;
+}
+
+article {
+	width:450px;
+}
+
+h1 {
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+h2 {
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
 blockquote, q {
 	quotes: none;
 }
+
+#page {
+	padding-left:240px;
+}
+
+aside {
+	float:left;
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
