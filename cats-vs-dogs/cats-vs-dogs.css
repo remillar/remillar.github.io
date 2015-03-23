@@ -61,12 +61,11 @@ body {
     font-size:16px;
     color:black;
     line-height:1.2;
-    width:80%;
+    width:70%;
 }
 
 header {
     padding-top:10px;
-    padding-bottom:20px;
     text-align:center;
 }
 
@@ -79,8 +78,8 @@ h2 {
 }
 
 nav {
-    padding-bottom:20px;
-    padding-top:10px;
+    padding-bottom:10px;
+    padding-top:5px;
     text-align:center;
 }
 
@@ -104,10 +103,11 @@ ul {
 
 article {
     padding-left:40px;
+    padding-bottom:20px;
     float:left;
     width:40%;
     height:450px;
-    display:block;
+    display:block-inline;
     margin: 0 auto;
 }
 
@@ -127,6 +127,10 @@ footer {
     clear:both;
 }
 
+#mr {
+    right:20px;
+    bottom:20px;
+}
 
 
 
