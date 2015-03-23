@@ -70,9 +70,6 @@ nav>a {
 }
 
 
-
-}
-
 article {
 	width:450px;
 	padding-bottom:20px;
@@ -100,6 +97,7 @@ blockquote, q {
 
 #page {
 	padding-left:240px;
+	width:500px;
 }
 
 aside {
