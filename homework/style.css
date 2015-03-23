@@ -52,8 +52,7 @@ table {
 
 body { 
 	font-family:Helvetica; 
-	font-size:14px; 
-	background-color:#CCFFFF;
+	font-size:14px;
 }
 
 section#content { 
@@ -64,7 +63,7 @@ section#content {
 
 a {
 	text-decoration:none; 
-	color:black
+	color:black;
 }
 
 h1 { 
