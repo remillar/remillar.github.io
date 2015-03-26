@@ -57,18 +57,21 @@ header {
 	right:20px;
 }
 
+nav>li {
+	display:inline-block;
+	text-decoration:none;
+}
+
+nav>a {
+	text-decoration:none;
+
+}
+
 ol, ul {
 	list-style: none;
 	text-transform:uppercase;
 	font-weight:bold;
 }
-
-nav>a {
-	color:#663300;
-	font-size:14px;
-	text-decoration:none;
-}
-
 
 article {
 	width:450px;
@@ -129,3 +132,6 @@ table {
 	top:295px;
 }
 
+#footer-follow {
+	display:inline-block;
+}
