@@ -118,20 +118,39 @@ table {
 	border-spacing: 0;
 }
 
-#footer-wrapper {
-	background-color:#663300;
-	color:white;
-	position:absolute;
-	padding-left:240px;
-	padding-right:340px;
-}
-
 #sidebar {
 	position:absolute;
 	right:20px;
 	top:295px;
 }
 
+footer {
+	width:860px;
+	font-size:12px;
+}
+
+#footer-wrapper {
+	background-color:#663300;
+	color:white;
+	position:absolute;
+	padding-left:240px;
+	padding-right:340px;
+	padding-bottom:200px;
+	position:relative;
+}
+
+#footer-contact {
+	width:200px;
+	position:absolute;
+}
+
+
 #footer-follow {
-	display:inline-block;
+	right:400px;
+	position:absolute;
+}
+
+#link-back {
+	position:absolute;
+	left:240px;
 }
