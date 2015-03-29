@@ -32,14 +32,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+
+
+
+
 body {
 	line-height: 1;
 	font-family:Helvetica;
-	color:#663300;
+	color:#966247;
+	font-size:14px;
 }
 
 header {
-	padding-bottom:20px;
+	padding-bottom:5px;
 	background-color:#FDE8D7;
 	padding-left:240px;
 }
@@ -48,41 +53,45 @@ header {
 	padding-left:240px;
 	padding-top:10px;
 	padding-bottom:20px;
-	background-color:#663300;
+	background-color:#966247;
 }
 
 #top-nav {
 	position:absolute;
-	top:20px;
-	right:20px;
+	top:40px;
+	right:80px;
 }
 
-nav>li {
-	display:inline-block;
+#top-nav a {
 	text-decoration:none;
+	color:#966247;
 }
 
-nav>a {
+#main-menu li a {
+	float:left;
 	text-decoration:none;
-
+	color:white;
+	text-transform:uppercase;
+	padding-right:25px;
+	font-weight:bold;
+	list-style: none;
 }
 
 ol, ul {
 	list-style: none;
 	text-transform:uppercase;
-	font-weight:bold;
 }
 
 article {
 	width:450px;
-	padding-bottom:20px;
+	padding-bottom:100px;
 }
 
 h1 {
 	font-size:28px;
 	font-weight:bold;
 	text-transform:uppercase;
-	padding-top:10px;
+	padding-top:15px;
 	padding-bottom:10px;
 }
 
@@ -94,34 +103,41 @@ h2 {
 	padding-bottom:10px;
 }
 
-blockquote, q {
-	quotes: none;
-}
-
 #page {
 	padding-left:240px;
 	width:500px;
 }
 
+#page p {
+	color:black;
+	line-height:1.4;
+}
+
+#page h1 {
+	padding-top:40px;
+}
+
 aside {
-	float:left;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	width:500px;
 }
 
 #sidebar {
 	position:absolute;
 	right:20px;
-	top:295px;
+	top:218px;
+	float:left;
+}
+
+#sidebar li a {
+	text-decoration:none;
+	text-transform:none;
+	color:#966247;
+	list-style: none;
+	line-height:1.4;
+}
+
+#sidebar a {
+	margin-top:10px;
 }
 
 footer {
@@ -130,27 +146,39 @@ footer {
 }
 
 #footer-wrapper {
-	background-color:#663300;
+	background-color:#966247;
 	color:white;
 	position:absolute;
 	padding-left:240px;
 	padding-right:340px;
-	padding-bottom:200px;
+	padding-bottom:210px;
 	position:relative;
 }
 
 #footer-contact {
 	width:200px;
 	position:absolute;
+	line-height:1.4;
 }
 
+#footer-wrapper h1 {
+	font-size:20px;
+}
 
 #footer-follow {
-	right:400px;
+	right:120px;
 	position:absolute;
+	width:400px;
 }
 
-#link-back {
+#footer-follow li a {
+	float:left;
+}
+
+#link-back a {
 	position:absolute;
 	left:240px;
+	bottom:30px;
+	text-decoration:none;
+	color:white;
 }
