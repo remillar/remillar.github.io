@@ -120,17 +120,21 @@ footer {
     border-top:3px black solid;
 }
 
-#link {
-    bottom:5px;
-    left:10px;
+#images {
+
+}
+
+#wiki {
+    color:red;
+}
+
+#copy
+
+#martha {
+    color:red;
+}
+
+#link a {
+    color:blue;
     text-decoration:none;
-    clear:both;
 }
-
-#mr {
-    right:20px;
-    bottom:20px;
-}
-
-
-
