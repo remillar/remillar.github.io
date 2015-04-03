@@ -11,7 +11,7 @@ body {
 
 h1 {
   	font-family:Avenir Next;
-  	font-size:32px;
+  	font-size:34px;
     font-weight:regular;
   }
 
@@ -19,13 +19,15 @@ h2 {
   	font-family:Avenir Next;
   	font-size:22px;
   }
+
 h3 {
   	font-family:Avenir Next;
   	font-size:22px;
   }
 
 h4 {
-    font:Avenir Next;
+    font:AvenirNext;
+    font-size:20px;
 }
 
 
@@ -34,23 +36,47 @@ footer {
 	font-style:italic;
 	font-color:white;
 	padding-left:40px;
+  clear:both;
+  position:fixed;
+  top:600px;
 }
 
 footer.hw {
   padding-top:30px;
-  left:40px;
+  left:20px;
+  clear:both;
 }
 
 footer.link {
-  right:40px;
+  right:400px;
   padding-top:20px;
+  clear:both;
 }
 
 a {
-  color:red;
-
+  color:orange;
 }
 
 ul {
   list-style:none;
+}
+
+#ingredients {
+  position:absolute;
+  width:600px;
+  height:300px;
+}
+
+#ingredients li {
+  position:relative;
+  float:left;
+  left:150px;
+
+}
+
+#prep {
+  position:absolute;
+  width:500px;
+  height:400px;
+  bottom:10px;
 }
