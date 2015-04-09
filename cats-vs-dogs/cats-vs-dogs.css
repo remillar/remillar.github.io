@@ -52,16 +52,19 @@ table {
 
 /* -----------------END RESET---------------- */
 
+
+img {
+    max-width:100%;
+}
+
 body {
-    padding:40px;
-    padding-left:60px;
+    line-height:1.2;
+    width:70%;
     display:block;
     margin: 0 auto;
     font-family:Georgia;
     font-size:16px;
     color:black;
-    line-height:1.2;
-    width:70%;
 }
 
 header {
@@ -101,6 +104,10 @@ ul {
     list-style:none;
 }
 
+#main-content {
+
+}
+
 article {
     padding-left:40px;
     padding-bottom:20px;
@@ -120,21 +127,3 @@ footer {
     border-top:3px black solid;
 }
 
-#images {
-
-}
-
-#wiki {
-    color:red;
-}
-
-#copy
-
-#martha {
-    color:red;
-}
-
-#link a {
-    color:blue;
-    text-decoration:none;
-}

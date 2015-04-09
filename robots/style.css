@@ -32,15 +32,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-
-
-
-
 body {
 	line-height: 1;
 	font-family:Helvetica;
 	color:#966247;
 	font-size:14px;
+}
+
+img {
+	max-width:100%;
 }
 
 header {
@@ -70,9 +70,10 @@ header {
 }
 
 #top-nav {
-	float:right;
-	width:40%;
+	display:inline-block;
+	width:80%;
 	text-align:right;
+	top:30px;
 }
 
 #top-nav a {
@@ -122,6 +123,7 @@ ol, ul {
 	list-style: none;
 	text-transform:uppercase;
 }
+
 article {
 	padding-bottom:50px;
 }
@@ -141,8 +143,6 @@ h2 {
 	padding-top:10px;
 	padding-bottom:10px;
 }
-
-
 
 #page h1 {
 	padding-top:40px;
@@ -184,13 +184,14 @@ footer {
 	background-color:#966247;
 	color:white;
 	clear:both;
-	height:140px;
+	height:10em;
 }
 
 #footer-contact {
 	float:left;
-	width:30%;
+	width:40%;
 	line-height:1.4;
+	right-margin:2em;
 }
 
 #footer-wrapper h1 {
@@ -207,9 +208,7 @@ footer {
 }
 
 #link-back a {
-	position:absolute;
-	left:240px;
-	bottom:30px;
 	text-decoration:none;
 	color:white;
+	clear:both;
 }
