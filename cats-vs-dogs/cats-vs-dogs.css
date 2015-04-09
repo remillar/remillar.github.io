@@ -52,9 +52,9 @@ table {
 
 /* -----------------END RESET---------------- */
 
-
 img {
     max-width:100%;
+    min-width:40%;
 }
 
 body {
@@ -97,15 +97,10 @@ ul {
     display:inline-block;
     padding:10px 20px 10px 10px;
     margin:0 auto;
-    font-size:22px;
+    font-size:1.5em;
     text-transform:uppercase;
     font-weight:bold;
     text-align:center;
-    list-style:none;
-}
-
-#main-content {
-
 }
 
 article {
@@ -113,11 +108,14 @@ article {
     padding-bottom:20px;
     float:left;
     width:40%;
-    height:450px;
+    height:50%;
     display:block-inline;
     margin: 0 auto;
 }
 
+#main-content {
+    max-height:100%;
+}
 
 footer {
     font-size:12px;
@@ -127,3 +125,13 @@ footer {
     border-top:3px black solid;
 }
 
+@media screen and (max-width:600px) {
+    #article { 
+        float:none; 
+        width:98%; 
+    }
+    img {
+        
+    }
+
+}
