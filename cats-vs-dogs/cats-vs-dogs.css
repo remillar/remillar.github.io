@@ -126,12 +126,16 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    #article { 
+    .main-content { 
         float:none; 
-        width:98%; 
+        width:auto; 
+        margin:none;
     }
-    img {
-        
+    li {
+        display:none;
+    }
+    #bullets {
+        display:none;
     }
 
 }

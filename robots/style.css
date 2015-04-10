@@ -54,12 +54,13 @@ header {
 
 #site-wrapper {
 	background-color:#FDE8D7;
-	margin:0 auto;
+	width:100%;
 }
 
 #site-header {
 	margin:0 auto;
-	width:80%;
+	width:90%;
+	margin-left:10%;
 }
 
 #menu-wrapper {
@@ -70,10 +71,12 @@ header {
 }
 
 #top-nav {
-	display:inline-block;
-	width:80%;
-	text-align:right;
-	top:30px;
+	width:30%;
+	float:right;
+	top:2em;
+	position:absolute;
+	top:3%;
+	right:3%;
 }
 
 #top-nav a {
@@ -184,12 +187,12 @@ footer {
 	background-color:#966247;
 	color:white;
 	clear:both;
-	height:10em;
+	height:180px;
 }
 
 #footer-contact {
 	float:left;
-	width:40%;
+	width:30%;
 	line-height:1.4;
 	right-margin:2em;
 }
@@ -199,8 +202,9 @@ footer {
 }
 
 #footer-follow {
-	width:60%;
-	text-align:right;
+	width:30%;
+	right:3%;
+	position:absolute;
 }
 
 #footer-follow li a {
@@ -210,5 +214,10 @@ footer {
 #link-back a {
 	text-decoration:none;
 	color:white;
+}
+
+#link-back {
 	clear:both;
+	margin-left:10%;
+	padding-top:1.5em;
 }
