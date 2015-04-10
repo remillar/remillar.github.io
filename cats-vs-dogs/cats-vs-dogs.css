@@ -133,9 +133,14 @@ footer {
     }
     li {
         display:none;
+        font-size:1.0em;
     }
-    #bullets {
+    #bullets li {
         display:none;
     }
+
+}
+ 
+@media screen and (max-width:350px) {
 
 }
