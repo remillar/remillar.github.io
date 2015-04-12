@@ -126,16 +126,16 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    .main-content { 
+    #main-content { 
         float:none; 
         width:auto; 
         margin:none;
     }
-    li {
+    nav li {
         display:none;
         font-size:1.0em;
     }
-    #bullets li {
+    #bullets ul {
         display:none;
     }
 
