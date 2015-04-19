@@ -54,7 +54,6 @@ table {
 
 img {
     max-width:100%;
-    min-width:40%;
 }
 
 body {
@@ -126,19 +125,11 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    #main-content { 
-        float:none; 
-        width:auto; 
-        margin:none;
-    }
     nav li {
         display:none;
         font-size:1.0em;
+        float:none;
     }
-    #bullets ul {
-        display:none;
-    }
-
 }
  
 @media screen and (max-width:350px) {
