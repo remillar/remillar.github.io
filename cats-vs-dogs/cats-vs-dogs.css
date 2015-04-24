@@ -93,7 +93,7 @@ h3 {
     line-height:1.05em;
 }
 
-#head {
+#head h1 h3 {
     display:inline-block;
 }
 
