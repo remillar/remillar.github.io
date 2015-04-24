@@ -94,7 +94,7 @@ h3 {
 }
 
 #head h1 h3 {
-    display:inline-block;
+    float:left;
 }
 
 nav {
