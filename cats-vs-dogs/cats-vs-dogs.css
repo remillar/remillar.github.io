@@ -75,17 +75,23 @@ header {
     width: 50%;
 }
 
-h1 h6 {
+h1 {
     font-family: "league-gothic",Georgia;
     font-size:6em;
     line-height:1.05em;
-  }
+}
 
 h3 {
     font-family:Georgia;
     font-style:bold;
     font-style:italic;
     font-size:5em;
+    line-height:1.05em;
+}
+
+h6 {
+    font-family: "league-gothic",Georgia;
+    font-size:6em;
     line-height:1.05em;
 }
 
