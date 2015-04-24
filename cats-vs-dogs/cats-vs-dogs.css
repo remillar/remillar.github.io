@@ -89,6 +89,8 @@ h3 {
     font-family:Georgia;
     font-style:bold;
     font-style:italic;
+    font-size:5em;
+    line-height:1.05em;
 }
 
 nav {
