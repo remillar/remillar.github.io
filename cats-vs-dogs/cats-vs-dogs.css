@@ -73,7 +73,8 @@ header {
 
 h1 {
   font-family: "league-gothic",Georgia;
-  font-size:2em;
+  font-size:3em;
+  line-height:1.05em;
   }
 
 h2 {
@@ -132,5 +133,9 @@ footer {
 @media screen and (max-width:350px) {
     article {
         float:none;
+    }
+    h1 {
+        font-size:2em;
+        line-height:1.25em;
     }
 }
