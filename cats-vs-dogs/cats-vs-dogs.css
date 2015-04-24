@@ -85,6 +85,12 @@ h2 {
     font-weight:bold;
 }
 
+h3 {
+    font-family:Georgia;
+    font-style:bold;
+    font-style:italic;
+}
+
 nav {
     padding-bottom:10px;
     padding-top:5px;
