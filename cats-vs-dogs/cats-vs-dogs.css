@@ -91,6 +91,10 @@ h6 {
     line-height:1.05em;
 }
 
+h1 h3 h6 {
+    float:left;
+}
+
 nav {
     padding-bottom:10px;
     padding-top:5px;
