@@ -99,8 +99,12 @@ h6 {
     line-height:1.05em;
 }
 
-h1 h3 h6 {
+h1 {
     float:left;
+}
+
+h3 h6 {
+    float:right;
 }
 
 nav {
