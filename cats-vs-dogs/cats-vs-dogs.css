@@ -138,4 +138,7 @@ footer {
         font-size:2em;
         line-height:1.25em;
     }
+    #nav li {
+        font-size:1em;
+    }
 }
