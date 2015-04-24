@@ -99,13 +99,10 @@ h6 {
     line-height:1.05em;
 }
 
-h1 {
-    float:left;
+h1 h3 h6 {
+    display:inline-block;
 }
 
-h3 h6 {
-    float:right;
-}
 
 nav {
     padding-bottom:10px;
