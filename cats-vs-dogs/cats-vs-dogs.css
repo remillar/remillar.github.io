@@ -75,6 +75,7 @@ h1 {
     font-family: "league-gothic",Georgia;
     font-size:6em;
     line-height:1.05em;
+    float:left;
 }
 
 h2 {
@@ -91,18 +92,15 @@ h3 {
     font-style:italic;
     font-size:5em;
     line-height:1.05em;
+    float:right;
 }
 
 h6 {
     font-family: "league-gothic",Georgia;
     font-size:6em;
     line-height:1.05em;
+    float:right;
 }
-
-h1 h3 h6 {
-    float:left;
-}
-
 
 nav {
     padding-bottom:10px;
