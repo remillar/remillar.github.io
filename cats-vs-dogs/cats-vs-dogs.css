@@ -71,6 +71,10 @@ header {
     text-align:center;
 }
 
+h1 {
+  font-family: "league-gothic",sans-serif;
+  }
+
 h2 {
     font-size:24px;
     font-family:Georgia;
