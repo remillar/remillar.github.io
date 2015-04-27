@@ -50,23 +50,14 @@ table {
 
 /* -----------------END RESET---------------- */
 
+
 img {
     max-width:100%;
 }
 
-nav {
-    float:right;
-}
-
-header {
-    padding-top:30px;
-    padding-bottom:60px;
-    padding-left:40px;
-    padding-right:40px;
-}
-
-li {
-    padding-left:40px;
+body {
+    line-height:1.2em;
+    font-family:Arial;
 }
 
 header a {
@@ -75,49 +66,45 @@ header a {
     color:black;
 }
 
+h1 {
+	font-size:1.5em;
+}
+
+nav {
+    float:right;
+}
+
 nav li {
+    float:left;
+    padding-left:40px;
+}
+
+header {
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:4%;
+    padding-right:8%;
+}
+
+section {
+	padding-top:40px;
+}
+
+article {
+	padding-left:4%;
+    padding-right:4%;
     float:left;
 }
 
-#main-content {
-    clear:both;
+p {
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
+#left {
+	width:40%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#right {
+	width:40%;
+}
