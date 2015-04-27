@@ -4,11 +4,16 @@
 <head>
 
 	<title>Rachel E Millar</title>
-	<!-- We include jquery -->
-    <script src='src/jquery.min.js'></script>
-    <!-- We include the plugin -->
-    <script src='src/jquery.cycle.all.js'></script>
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+	<script type="text/javascript">
+	$(window).load(function() {
+    $('#main-content').nivoSlider();
+	});
+	</script>
 </head>
 
 <body>
@@ -36,9 +41,7 @@
 	<img src="images/type2.jpg" alt= 'type'>
 </div>
 
-<script>
-      $('#main-content').cycle();  
-    </script>
+
 
 </body>
 </html>
