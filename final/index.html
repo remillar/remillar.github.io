@@ -5,7 +5,12 @@
 
 	<title>Rachel E Millar</title>
 		
-		
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 	
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 
@@ -25,19 +30,23 @@
 		</nav>
 	</header>
 
-<div id='main-content' class='nivoSlider'>
-	<img src="images/destroy2.jpg" alt='destroy this toy'>
-	<img src="images/gdfs.jpg" alt='gdfs'>
-	<img src="images/kk2.jpg" alt='kk'>
-	<img src="images/letterpress.jpg" alt='letterpress'>
-	<img src="images/memories.jpg" alt='memories'>
-	<img src="images/notorious.jpg" alt='notorious'>
-	<img src="images/slc2.jpg" alt='slc'>
-	<img src="images/ss.jpg" alt='ss'>
-	<img src="images/type2.jpg" alt= 'type'>
-</div>
+<ul class='bxslider'>
+	<li><img src="images/destroy2.jpg" alt='destroy this toy'></li>
+	<li><img src="images/gdfs.jpg" alt='gdfs'></li>
+	<li><img src="images/kk2.jpg" alt='kk'></li>
+	<li><img src="images/letterpress.jpg" alt='letterpress'></li>
+	<li><img src="images/memories.jpg" alt='memories'></li>
+	<li><img src="images/notorious.jpg" alt='notorious'></li>
+	<li><img src="images/slc2.jpg" alt='slc'></li>
+	<li><img src="images/ss.jpg" alt='ss'></li>
+	<li><img src="images/type2.jpg" alt= 'type'></li>
+</ul>
 
-	
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
 
 </body>
 </html>
