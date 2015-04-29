@@ -134,7 +134,8 @@ a {
     text-decoration:none;
 }
 
-.navigation {
+#navigation p {
+    padding-top:100px;
     text-style:italic;
     float:left;
 }
