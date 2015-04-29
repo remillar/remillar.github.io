@@ -125,3 +125,7 @@ p {
     text-align:center;
     padding-bottom:2%;
 }
+
+a:hover {
+    color:teal;
+}
