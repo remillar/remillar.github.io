@@ -112,6 +112,7 @@ header a {
 }
 
 h1 {
+    font-family:"din-condensed-web", Arial;
     font-size:1.2em;
     padding-bottom:10px;
 }
@@ -124,6 +125,9 @@ p {
     font-style:italic;
 }
 
+#normal {
+    padding-bottom:10px;
+}
 
 
 
