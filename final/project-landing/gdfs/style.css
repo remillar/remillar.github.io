@@ -139,3 +139,7 @@ a {
     text-style:italic;
     float:left;
 }
+
+#next {
+    text-align:right;
+}
