@@ -66,7 +66,12 @@ header a {
     color:black;
 }
 
+header {
+    font-family:"din-condensed-web", Arial;
+}
+
 h1 {
+    font-family:"din-condensed-web", Arial;
 	font-size:1.5em;
 }
 
