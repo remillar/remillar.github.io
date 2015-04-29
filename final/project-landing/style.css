@@ -51,7 +51,8 @@ table {
 /* -----------------END RESET---------------- */
 
 img {
-    max-width:100%;
+    max-width:90%;
+    margin:1%;
 }
 
 body {
@@ -83,4 +84,11 @@ header a {
 
 nav li {
     float:left;
+}
+
+#main-content {
+    float:left;
+    padding-left:3%;
+    padding-top:2%;
+    padding-bottom:2%;
 }
