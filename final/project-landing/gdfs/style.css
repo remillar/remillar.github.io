@@ -112,6 +112,7 @@ p {
 
 #left {
     padding-left:3%;
+    padding-right:2%;
     width:30%;
     position:fixed;
 }
@@ -120,4 +121,5 @@ p {
     position:absolute;
 	width:50%;
     right:90px;
+    text-align:center;
 }
