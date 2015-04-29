@@ -133,3 +133,8 @@ a:hover {
 a {
     text-decoration:none;
 }
+
+.navigation {
+    text-style:italic;
+    float:left;
+}
