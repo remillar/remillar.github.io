@@ -129,6 +129,10 @@ p {
     padding-bottom:10px;
 }
 
+a:hover {
+    color:teal;
+}
+
 
 
 
