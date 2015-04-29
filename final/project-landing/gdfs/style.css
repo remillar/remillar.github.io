@@ -106,12 +106,18 @@ p {
 	padding-bottom:10px;
 }
 
+#container {
+	width:30%;
+}
+
 #left {
-	width:40%;
+    padding-left:3%;
+    width:30%;
     position:fixed;
-    height:800px;
 }
 
 #right {
-	width:40%;
+    position:absolute;
+	width:50%;
+    right:90px;
 }
