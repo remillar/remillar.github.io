@@ -136,10 +136,6 @@ a {
 
 #navigation p {
     padding-top:100px;
-    text-style:italic;
+    font-style:italic;
     float:left;
-}
-
-#next {
-    padding-left:50%;
 }
