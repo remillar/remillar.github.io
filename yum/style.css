@@ -8,27 +8,25 @@ body {
 }
 
 header {
+    font-family: Helvetica Neue;
     font-size:2.6em;
-}
-
-h2 {
-    font-size:1em;
-    width:50%;
 }
 
 ul {
     list-style:none;
+    float:right;
 }
 
-section {
+#prep section {
     float:left;
-    clear:both;
+    width:50%;
 }
 
-footer {
-    clear:both;
+#ing section {
+    float:left;
+    width:50%;
 }
 
-#hw {
-    margin-right:50%;
+#header {
+    width:40%;
 }
