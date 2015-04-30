@@ -118,6 +118,10 @@ p {
     position:fixed;
 }
 
+#left a {
+    font-style:italic;
+}
+
 #right {
     position:absolute;
 	width:50%;
