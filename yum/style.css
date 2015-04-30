@@ -1,82 +1,36 @@
-
 body {
-  	background-color: white;
-  	font-family: Helvetica Neue;
-  	font-size: 16px;
-  	color: black;
-  	padding-left:40px;
-    padding-top:20px;
-    width:750px;
-  }
+    font-family: Helvetica Neue;
+    padding-left:4%;
+    padding-top:4%;
+    padding-right:4%;
+    padding-bottom:4%;
+    width:40%;
+}
 
-h1 {
-  	font-family:Avenir Next;
-  	font-size:34px;
-    font-weight:regular;
-  }
+header {
+    font-size:2.6em;
+    width:50%;
+}
 
 h2 {
-  	font-family:Avenir Next;
-  	font-size:22px;
-  }
-
-h3 {
-  	font-family:Avenir Next;
-  	font-size:22px;
-  }
-
-h4 {
-    font:AvenirNext;
-    font-size:20px;
-}
-
-
-footer {
-	text-decoration:none;
-	font-style:italic;
-	font-color:white;
-	padding-left:40px;
-  clear:both;
-  position:fixed;
-  top:600px;
-}
-
-footer.hw {
-  padding-top:30px;
-  left:20px;
-  clear:both;
-}
-
-footer.link {
-  right:400px;
-  padding-top:20px;
-  clear:both;
-}
-
-a {
-  color:orange;
+    font-size:1em;
+    width:20%;
 }
 
 ul {
-  list-style:none;
+    list-style:none;
+    width:50%;
+    float:right;
 }
 
-#ingredients {
-  position:absolute;
-  width:600px;
-  height:300px;
+footer {
+    clear:both;
 }
 
-#ingredients li {
-  position:relative;
-  float:left;
-  left:150px;
-
+#ing {
+    clear:both;
 }
 
 #prep {
-  position:absolute;
-  width:500px;
-  height:400px;
-  bottom:10px;
+    clear:both;
 }
