@@ -154,15 +154,23 @@ footer {
     border-top:3px black solid;
 }
 
+#ham {
+    display:none;
+}
+
 @media screen and (max-width:500px) {
-    article {
+    #main-content {
         float:none;
     }
-    h1 {
-        font-size:2em;
-        line-height:1.25em;
+    h1 h3 h6 {
+        font-size:16px;
     }
-    #nav li {
-        font-size:1em;
+    #nav {
+        display:none;
+    }
+    #ham {
+        display:inline;
+        height:50px;
+        width:50px;
     }
 }
