@@ -13,6 +13,7 @@ header {
 }
 
 ul {
+    margin-top:0px;
     list-style:none;
     float:right;
     padding-left:0;
