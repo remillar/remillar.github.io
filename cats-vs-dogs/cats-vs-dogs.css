@@ -133,7 +133,7 @@ ul {
 }
 
 article {
-    padding-left:40px;
+    padding-left:20%px;
     padding-bottom:20px;
     float:left;
     width:40%;
@@ -162,15 +162,32 @@ footer {
     #main-content {
         float:none;
     }
-    h1 h3 h6 {
-        font-size:16px;
+    h1 {
+        font-size:50px;
+        padding-bottom:20px;
+    }
+    h3 {
+        font-size:28px;
+    }
+    h6 {
+        font-size:50px;
     }
     #nav {
         display:none;
     }
     #ham {
         display:inline;
-        height:50px;
-        width:50px;
+        position: absolute;
+        right:2%;
     }
+    article {
+        padding-top:10px;
+        float:none;
+        width:90%;
+    }
+    header {
+        margin-left:2%;
+        
+    }
+    
 }
