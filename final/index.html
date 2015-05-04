@@ -25,7 +25,7 @@
             </nav>
 	</header>
     
-<div id="pics">
+<div id="slideshow">
         <img src="images/destroy2.jpg" alt='destroy this toy'>
         <img src="images/gdfs.jpg" alt='gdfs'>
         <img src="images/kk2.jpg" alt='kk'>
@@ -39,7 +39,9 @@
 </div>
 
     <script>
-       $('#s1').cycle('fade');
+       $(document).ready(function() {
+        $('#slideshow').cycle();
+        });   
     </script>
     
    
