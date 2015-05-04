@@ -93,9 +93,6 @@ a:hover {
     color:teal;
 }
 
-#ham {
-    display:none;
-}
 
 
 
@@ -106,8 +103,6 @@ a:hover {
     header a { 
         font-size: 3em;
     }
-    #ham {
-        display:inline;
-    }
+    
 }
 
