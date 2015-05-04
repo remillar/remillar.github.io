@@ -8,7 +8,9 @@
 	<script src="//use.typekit.net/psm8ygn.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 		
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="lean-slider.js"></script>
+<link rel="stylesheet" href="lean-slider/lean-slider.css" type="text/css" />
 	
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
     
@@ -27,22 +29,40 @@
             </nav>
 	</header>
     
-    
-
-<div class='fadein'>
-<img src="images/destroy2.jpg" alt='destroy this toy'>
-<img src="images/gdfs.jpg" alt='gdfs'>
-<img src="images/kk2.jpg" alt='kk'>
-<img src="images/letterpress.jpg" alt='letterpress'>
-<img src="images/memories.jpg" alt='memories'>
-<img src="images/notorious.jpg" alt='notorious'>
-<img src="images/slc2.jpg" alt='slc'>
-<img src="images/ss.jpg" alt='ss'>
-<img src="images/type2.jpg" alt= 'type'>
+<div id="slider">
+    <div class="slide1">
+        <img src="images/destroy2.jpg" alt='destroy this toy'>
+    </div>
+    <div class="slide2">
+        <img src="images/gdfs.jpg" alt='gdfs'>
+    </div>
+    <div class="slide3">
+        <img src="images/kk2.jpg" alt='kk'>
+    </div>
+    <div class="slide4">
+        <img src="images/letterpress.jpg" alt='letterpress'>
+    </div>
+    <div class="slide5">
+        <img src="images/memories.jpg" alt='memories'>
+    </div>
+    <div class="slide6">
+        <img src="images/notorious.jpg" alt='notorious'>
+    </div>
+    <div class="slide7">
+        <img src="images/slc2.jpg" alt='slc'>
+    </div>
+    <div class="slide8">
+        <img src="images/ss.jpg" alt='ss'>
+    </div>
+    <div class="slide9">
+        <img src="images/type2.jpg" alt= 'type'>
+    </div>
 </div>
 
     <script>
-        
+        $(document).ready(function() {
+    $('#slider').leanSlider();
+});
     </script>
 
 </body>
