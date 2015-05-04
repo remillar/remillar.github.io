@@ -100,9 +100,11 @@ a:hover {
 }
 
 .fadein img { 
+    max-width:100%;
     position:absolute; 
     left:50px; 
-    top:50px; }
+    top:50px; 
+}
 
 @media screen and (max-width: 500px) {
     nav {
