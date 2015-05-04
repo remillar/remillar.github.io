@@ -100,8 +100,8 @@ a:hover {
 
 
 @media screen and (max-width: 500px) {
-    nav li { 
-        float:none;  
+    nav {
+        display:none;
     }
     header a { 
         font-size: 3em;
