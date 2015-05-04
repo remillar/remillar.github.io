@@ -7,6 +7,8 @@
 	
 	<script src="//use.typekit.net/psm8ygn.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    
+    <script src='fade.js'></script>
 	
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
     
@@ -39,10 +41,9 @@
 </div>
 
     <script>
-       $('#pics').cycle({ 
-           fx:    'fade', 
-           speed:  2500 
-       });
+       $(document).ready(function() {
+        $('pics').cycle();
+        }); 
     </script>
     
    
