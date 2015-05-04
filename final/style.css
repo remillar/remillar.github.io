@@ -93,18 +93,8 @@ a:hover {
     color:teal;
 }
 
-.fadein { 
-    position:relative; 
-    width:600px; 
-    height:450px; 
-}
 
-.fadein img { 
-    max-width:100%;
-    position:absolute; 
-    left:200px; 
-    top:80px; 
-}
+
 
 @media screen and (max-width: 500px) {
     nav {
