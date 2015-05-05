@@ -168,4 +168,7 @@ a {
     nav li {
         float:none;
     }
+    article {
+        float:none;
+    }
 }
