@@ -157,6 +157,7 @@ a {
 @media screen and (max-width:500px) {
     #hamburger {
         display:block;
+        text-align:right;
     }
     nav ul {
         
@@ -166,4 +167,5 @@ a {
     }
     nav li {
         float:none;
+        padding-bottom:10px;
     }
