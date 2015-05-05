@@ -154,7 +154,7 @@ a {
     display:none;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     #hamburger {
         display:block;
         text-align:right;
@@ -177,4 +177,19 @@ a {
     }
     header {
         width:50%;
+    }
+    #left {
+        width:100%;
+        position:relative;
+    }
+    #right {
+        position:inherit;
+        width:90%;
+    }
+    #container {
+        width:90%;
+    }
+    #navigation p {
+        display:none;
+    }
 }
