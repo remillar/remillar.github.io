@@ -138,6 +138,21 @@ a {
     color:black;
 }
 
+@media screen and (max-width:600px) {
+    article {
+        float:none;
+    }
+    #left {
+        width:90%;
+    }
+    #right {
+        margin-left:0;
+        width:90%;
+    }
+    #main-content {
+        width:80%;
+    }
+}
 
 
 
