@@ -108,7 +108,7 @@ h6 {
     text-align:left;
 }
 
-nav {
+#nav {
     padding-bottom:10px;
     padding-top:5px;
     text-align:center;
@@ -118,12 +118,12 @@ nav {
 ul {
     text-align:center;
     font-weight:bold;
-    border-top:3px solid black;
-    border-bottom:3px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
 }
 
 #nav li {
-    float:right;
+    float:left;
     padding:10px 20px 10px 10px;
     margin:0 auto;
     font-size:1.5em;
@@ -133,17 +133,17 @@ ul {
 }
 
 article {
-    padding-left:20%px;
     padding-bottom:20px;
     float:left;
     width:40%;
     height:50%;
     display:block-inline;
-    margin: 0 auto;
 }
 
 #main-content {
     max-height:100%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 footer {
@@ -157,6 +157,15 @@ footer {
 #hamburger {
     display:none;
 }
+
+#dogs {
+    width: 40%;
+}
+
+#cats {
+    width:40%;
+}
+
 
 @media screen and (max-width:500px) {
     #main-content {
