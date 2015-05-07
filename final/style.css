@@ -100,10 +100,13 @@ a:hover {
     margin:  0;  
     max-width:100%;
     position:absolute;
-    padding-left:10%;
-    padding-right:10%;
     text-align:center;
 } 
+
+#slideshow {
+    padding-left:10%;
+    padding-right:10%;
+}
  
 .pics img {   
     width:  1000px; 
