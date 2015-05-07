@@ -167,6 +167,9 @@ a {
     }
     nav:hover ul {
         display:block;
+        text-align:right;
+        position:absolute;
+        right:5%;
     }
     nav li {
         float:none;
@@ -174,6 +177,7 @@ a {
     }
     article {
         float:none;
+        position:absolute;
     }
     header {
         width:50%;
@@ -192,4 +196,6 @@ a {
     #navigation p {
         display:none;
     }
+    h1 {
+        padding-top:20px;
 }
