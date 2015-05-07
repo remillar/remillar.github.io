@@ -123,10 +123,10 @@ p {
 
 #italic {
     font-style:italic;
+    padding-top:2%;
 }
 
 #normal {
-    padding-bottom:10px;
 }
 
 a:hover {
@@ -173,7 +173,7 @@ a {
         width:50%;
     }
     #left {
-        width:70%;
+        width:80%;
         position:relative;
     }
     #right {
