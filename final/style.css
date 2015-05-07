@@ -94,27 +94,28 @@ a:hover {
 }
 
 .pics {  
-    height:  800px;  
-    width:   1200px;  
+    height:  600px;  
+    width:   1000px;  
     padding: 0;  
     margin:  0;  
     max-width:100%;
     position:absolute;
     margin-left:25%;
     margin-right:25%;
+    text-align:center;
 } 
  
 .pics img {   
-    width:  1200px; 
-    height: 800px; 
+    width:  1000px; 
+    height: 600px; 
     top:  0; 
     left: 0 
 } 
 
-
 #hamburger {
     display:none;
 }
+
 
 @media screen and (max-width:600px) {
     #hamburger {
