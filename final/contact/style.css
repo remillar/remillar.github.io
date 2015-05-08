@@ -125,6 +125,10 @@ p {
     font-style:italic;
 }
 
+#year {
+    padding-bottom:10px;
+}
+
 #normal {
 }
 
