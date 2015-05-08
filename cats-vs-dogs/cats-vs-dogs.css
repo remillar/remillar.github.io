@@ -120,17 +120,19 @@ ul {
     font-weight:bold;
     border-top:3px solid black;
     border-bottom:3px solid black;
-    height:50px;
+    height:30px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 #nav li {
     float:left;
-    padding:10px 30px 10px 30px;
     margin:0 auto;
     font-size:1.5em;
     text-transform:uppercase;
     font-weight:bold;
     text-align:center;
+    width:20%;
 }
 
 article {
@@ -139,6 +141,7 @@ article {
     width:40%;
     height:50%;
     display:block-inline;
+    margin-left:6%;
 }
 
 #main-content {
@@ -173,18 +176,22 @@ footer {
     }
     h1 {
         font-size:50px;
-        padding-bottom:20px;
+        padding-bottom:10px;
+        width:38%;
     }
     h3 {
         font-size:28px;
+        width:17%;
     }
     h6 {
         font-size:50px;
+        width:%;
     }
     article {
         padding-top:10px;
         float:none;
         width:90%;
+        border-top:3px solid black;
     }
     header {
         margin-left:0;
@@ -203,14 +210,17 @@ footer {
     }
     nav:hover ul {
         display:block;
-        text-align:right;
-        position:absolute;
-        top:8%;
+        text-align:center;
+        top:4%;
         right:6%;
         font-size:.8em;
     }
     nav li {
         float:none;
         line-height:2em;
+        padding-left:20%;
+        padding-right:20%;
+        text-align:center;
+        width:50%;
     }
 }
