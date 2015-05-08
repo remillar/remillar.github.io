@@ -68,13 +68,14 @@ header a {
 }
 
 header {
-    font-family:"din-condensed-web", Arial;
+    font-family:"alternate-gothic-no-3-d", Arial;
 }
 
 h1 {
-    font-family:"din-condensed-web", Arial;
+    font-family:"alternate-gothic-no-3-d", Arial;
     padding-bottom: 10px;
     font-size:1.8em;
+    line-height:1.9em;
 }
 
 nav {
