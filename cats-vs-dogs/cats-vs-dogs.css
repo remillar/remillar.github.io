@@ -187,14 +187,13 @@ footer {
         width:90%;
     }
     header {
-        margin-left:2%;
+        margin-left:0;
     }
-    
     #hamburger {
         display:block;
         text-align:right;
         position:absolute;
-        top:10px;
+        top:20px;
         right:6%;
     }
     nav ul {
