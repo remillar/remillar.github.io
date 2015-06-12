@@ -118,8 +118,8 @@ h1 {
 }
 
 h2 {
-    bottom: 20px;
-    position: fixed;
+    bottom: 40px;
+    position: absolute;
     font-family:Arial;
     font-style:italic;
     padding-left:4%;
