@@ -83,13 +83,11 @@ li {
 
 #left {
     width:30%;
-    padding-bottom:50px;
 }
 
 #right {
     width:50%;
     margin-left:4%;
-    padding-bottom:50px;
 }
 
 article {
@@ -107,6 +105,10 @@ header a {
 #main-content {
     clear:both;
     padding-top:40px;
+}
+
+#content {
+    padding-bottom:60px;
 }
 
 #main-content ul {
