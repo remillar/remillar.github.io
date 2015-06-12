@@ -83,11 +83,13 @@ li {
 
 #left {
     width:30%;
+    padding-bottom:50px;
 }
 
 #right {
     width:50%;
     margin-left:4%;
+    padding-bottom:50px;
 }
 
 article {
